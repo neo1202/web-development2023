@@ -1,0 +1,40 @@
+#one{
+    background-color: #9c89b8;
+    width: 200px;
+    border-width: 10px;
+    border-color:black;
+    border-style:dotted solid;
+}
+#two{
+    background-color: #efc3e6;
+    width: 200px;
+}
+#three{
+    background-color: #b8bedd;
+    width:200px;
+    border-width: 10px;
+    border-color:black;
+    border-style:solid;
+    box-sizing: border-box; /*這行讓border往內凹 而不是像one一樣像外凸出*/
+}
+#four{
+    background-color: #b8bedd;
+    width:200px;
+    border:5px solid salmon; /*照著這順序可以簡略寫出border*/
+    border-left-style: ridge;
+    border-radius: 10%;
+}
+h1{
+    background-color: aquamarine;
+}
+img{
+    width: 200px;
+    border:5px solid  rgb(236, 183, 191) ;
+    border-radius: 50%;
+}
+.card{
+    width:210px;
+    border:1px solid grey;
+    border-radius: 5px;
+    text-align: center;
+}

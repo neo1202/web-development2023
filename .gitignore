@@ -1,0 +1,10 @@
+*.xlsx
+*.csv
+*.png
+*.txt
+*.zip 
+
+*.exe
+.DS_store
+node_modules
+
